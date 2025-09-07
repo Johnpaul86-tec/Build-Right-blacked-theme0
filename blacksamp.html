@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>BuildRight Construction Ltd</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:Arial, sans-serif; line-height:1.6; background:#111; color:#eee;}
+  header{background:#000;color:#f1c40f;display:flex;justify-content:space-between;align-items:center;padding:15px 30px;}
+  header h1{font-size:1.5rem;}
+  nav ul{list-style:none;display:flex;gap:20px;}
+  nav ul li a{color:#f1c40f;text-decoration:none;font-weight:bold;transition:.3s;}
+  nav ul li a:hover{color:#fff;}
+  .hero{background:url('images/hero2.jpg') no-repeat center/cover; color:#fff;text-align:center;padding:100px 20px;position:relative;}
+  .hero::before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.6);}
+  .hero div{position:relative;z-index:1;}
+  .hero h2{font-size:2.5rem;margin-bottom:10px;color:#f1c40f;}
+  section{padding:60px 20px;max-width:1100px;margin:auto;}
+  section h2{text-align:center;margin-bottom:40px;color:#f1c40f;}
+  .row{display:flex;align-items:center;gap:30px;margin-bottom:40px;}
+  .row img{width:50%;border-radius:10px;}
+  .row div{flex:1;}
+  .row:nth-child(even){flex-direction:row-reverse;}
+  .row h3{color:#f1c40f;}
+  .cta{background:#f1c40f;color:#000;text-align:center;padding:60px 20px;}
+  .cta h2{margin-bottom:10px;}
+  footer{background:#000;color:#eee;text-align:center;padding:30px 20px;}
+  footer .socials{display:flex;justify-content:center;gap:15px;margin:15px 0;}
+  footer a{color:#000;background:#f1c40f;font-size:1.2rem;text-decoration:none;padding:10px;border-radius:50%;transition:.3s;}
+  footer a:hover{background:#fff;color:#000;}
+  @media(max-width:768px){
+    .row{flex-direction:column;}
+    .row:nth-child(even){flex-direction:column;}
+    .row img{width:100%;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>BuildRight Construction</h1>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <h2>Building Tomorrow, Today</h2>
+    <p>We bring your vision to life with innovation and trust.</p>
+  </div>
+</section>
+
+<section id="about">
+  <h2>Who We Are</h2>
+  <div class="row">
+    <img src="images/constraction.jpg" alt="About us">
+    <div>
+      <p>BuildRight Construction is more than a company—it’s a team of dedicated engineers and builders passionate about transforming ideas into reality. From modest homes to large-scale developments, we’ve grown into a trusted partner known for integrity, innovation, and quality. Every project reflects our commitment to sustainable solutions and community growth. We don’t just build structures—we build trust, empower people, and shape environments that support progress across Kenya for generations to come.</p>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <h2>What We Do</h2>
+  <div class="row">
+    <img src="images/constra.jpg" alt="Materials">
+    <div>
+      <h3>Material Supply</h3>
+      <p>At BuildRight, we understand that strong projects begin with reliable materials. That’s why we supply high-quality cement, steel, and roofing essentials to builders, contractors, and institutions across Kenya. Each product is sourced from trusted manufacturers to guarantee strength, durability, and performance. Our goal is to simplify construction by ensuring clients have what they need, when they need it. With BuildRight, you’re not just buying materials—you’re investing in reliability, consistency, and long-lasting results.</p>
+    </div>
+  </div>
+  <div class="row">
+    <img src="images/build.jpg" alt="Construction">
+    <div>
+      <h3>Construction</h3>
+      <p>Construction is at the core of BuildRight’s expertise. From residential houses to commercial complexes, we deliver projects that combine safety, durability, and modern design. Our team approaches every build with precision, innovation, and a client-first mindset. We honor deadlines without compromising on quality, ensuring each structure stands strong for decades. With BuildRight, construction is more than bricks and steel—it’s about creating secure, inspiring spaces where families, businesses, and communities can grow and thrive.</p>
+    </div>
+  </div>
+  <div class="row">
+    <img src="images/consol.jpg" alt="Consultancy">
+    <div>
+      <h3>Consultancy</h3>
+      <p>BuildRight offers consultancy services that bring clarity and confidence to every project. Our experts provide guidance in architecture, engineering, and project management, ensuring ideas are transformed into practical, sustainable designs. We partner with clients at every stage—from concept to completion—offering insights that save time, reduce costs, and enhance outcomes. At BuildRight, consultancy is not just about advice; it’s about walking with our clients, ensuring their vision is achieved with excellence and integrity.</p>
+    </div>
+  </div>
+  <div class="row">
+    <img src="images/deliver.jpg" alt="Logistics">
+    <div>
+      <h3>Logistics</h3>
+      <p>Reliable delivery is the backbone of successful construction, and BuildRight ensures it. Our logistics services guarantee that materials and equipment arrive on-site, on schedule, and in perfect condition—no matter the location. Covering every county across Kenya, we operate with efficiency and care to keep projects moving without delays. With BuildRight’s logistics, clients don’t just receive products—they gain peace of mind, knowing that every delivery supports progress, productivity, and seamless project execution.</p>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="row">
+    <img src="images/comm.jpg" alt="Project 1">
+    <div>
+      <h3>Community Schools</h3>
+      <p>Education is central to community growth, and BuildRight takes pride in constructing safe, affordable, and lasting schools. Each project is designed to give children access to secure learning spaces that inspire and empower them. Our classrooms are built with durability and accessibility in mind, ensuring they serve generations to come. By working hand-in-hand with communities, BuildRight delivers more than buildings—we deliver opportunities for knowledge, growth, and a brighter future for every child.</p>
+    </div>
+  </div>
+  <div class="row">
+    <img src="images/health.jpg" alt="Project 2">
+    <div>
+      <h3>Healthcare Facilities</h3>
+      <p>BuildRight is committed to strengthening healthcare access through modern, safe, and functional facilities. From hospitals to local clinics, our projects are designed for accessibility, efficiency, and long-term use. We prioritize structures that support both medical professionals and patients, creating spaces where care can be delivered effectively. Each healthcare project we build is an investment in community well-being. With BuildRight, healthcare infrastructure is not just built—it’s designed to save lives and uplift society.</p>
+    </div>
+  </div>
+  <div class="row">
+    <img src="images/modern.jpeg" alt="Project 3">
+    <div>
+      <h3>Urban Development</h3>
+      <p>Kenya’s cities are growing, and BuildRight is at the forefront of shaping that future. Our urban development projects include high-rise housing, road networks, and modern infrastructure designed to meet the needs of rapidly expanding communities. By combining innovation, sustainability, and quality, we create developments that improve daily living and drive economic growth. BuildRight’s urban projects go beyond construction—they redefine city living, provide opportunities, and create environments where families and businesses can thrive.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Let’s Build Together</h2>
+  <p>Your project deserves the right partner — BuildRight delivers excellence every time.</p>
+</section>
+
+<footer id="contact">
+  <p>Email: info@buildright.co.ke | Phone: +254 700 000 000</p>
+  <div class="socials">
+    <a href="#">WA</a>
+    <a href="#">FB</a>
+    <a href="#">X</a>
+    <a href="#">TT</a>
+    <a href="#">YT</a>
+  </div>
+  <p>&copy; 2025 BuildRight Construction Ltd | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
